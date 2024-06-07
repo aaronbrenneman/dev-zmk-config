@@ -2,7 +2,7 @@
 
 Welcome to my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/)
 configuration. It consists of a 34-keys base layout that is re-used for various
-boards, including my Corne-5col, my Planck, and my Preonic[^1].
+boards, including my Corne-5col, my Planck, and my Preonic.[^1]
 
 ## features
 
@@ -10,7 +10,7 @@ boards, including my Corne-5col, my Planck, and my Preonic[^1].
 - ["timeless" homerow mods](#timeless-homerow-mods)
 - combos replacing the symbol layer
 - smart numbers and smart mouse layers that automatically toggle off when done
-- sticky shift on right thumb, double-tap (or shift + tap)[^1] activates
+- sticky shift on right thumb, double-tap (or shift + tap) activates
   caps-word
 - arrow-cluster doubles as <kbd>home</kbd>, <kbd>end</kbd>, <kbd>begin/end of
   document</kbd> on long-press
@@ -56,4 +56,4 @@ ZMK_HOLD_TAP(hmr,
 )
 ```
 
-[^1] With an additional numrow for gaming.
+[^1]:With an additional numrow for gaming.
