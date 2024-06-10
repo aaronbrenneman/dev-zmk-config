@@ -6,9 +6,12 @@ boards, including my Corne-5col, my Planck, and my Preonic.[^1]
 
 ## features
 
-- helper macros from [zmk-helpers](https://github.com/urob/zmk-helpers)
-- ["timeless" homerow mods](#timeless-homerow-mods)
+- helper macros from urob's [zmk-helpers](https://github.com/urob/zmk-helpers)
+- "timeless" homerow mods
 - combos replacing the symbol layer
+
+## to do 
+
 - smart numbers and smart mouse layers that automatically toggle off when done
 - sticky shift on right thumb, double-tap (or shift + tap) activates
   caps-word
@@ -18,8 +21,7 @@ boards, including my Corne-5col, my Planck, and my Preonic.[^1]
   !</kbd>
 - <kbd>shift</kbd> + <kbd>space</kbd> morphs into <kbd>dot</kbd> →
   <kbd>space</kbd> → <kbd>sticky-shift</kbd>
-
-## to do - modified Github Actions workflow that recognizes git-submodules
+- modified Github Actions workflow that recognizes git-submodules
 - automated [build-scripts](https://github.com/urob/zmk-config/tree/main/scripts#readme)
   for local and Docker-based building (independently of VS Code)
 - (img/keymap.png)
