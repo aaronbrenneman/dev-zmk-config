@@ -23,43 +23,43 @@
 
 ZMK_LAYER(_bas,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     &none          &kp W          &kp E          &kp R          &kp T       X_MT     &kp Y          &kp U          &kp I          &kp O        &none         X_RT
+    X_LT         &none        &kp W          &kp E          &kp R         &kp T      X_MT     &kp Y          &kp U          &kp I          &kp O        &none         X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &kp A          &kp S          &kp D          &kp F          &kp G       X_MM     &kp H          &kp J          &kp K          &kp L        &kp P         X_RM
+    X_LM         &kp A        &kp S          &kp D          &kp F         &kp G      X_MM     &kp H          &kp J          &kp K          &kp L        &kp P         X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &kp Z          &kp X          &kp C          &kp V          &kp B       X_MB     &kp N          &kp M          &kp COMMA      &kp DOT      &kp SEMI      X_RB
+    X_LB         &kp Z        &kp X          &kp C          &kp V         &kp B      X_MB     &kp N          &kp M          &kp COMMA      &kp DOT      &kp SEMI      X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
     X_LH                                                  &mo 2       &kp SPACE      X_MH     &kp ENTER      &mo 1                                                    X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
 )
-      &none  &none  
-      &none  &none  
-      &none  &none  
-&none  &none  &none    &none  &none    &none      &none    &none
-ZMK_LAYER(nav,
+
+ZMK_LAYER(_num,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     ___           ___           &kp LS(TAB)   &swapper      ___             X_MT     &kp PG_UP     NAV_BSPC      NAV_UP        NAV_DEL       ___             X_RT
+    X_LT        &none         &kp BSLH      &kp STAR     &kp FSLH       &none        X_MT       &none         &kp N4          &kp N5      &kp N6      &none           X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &sk LGUI      &sk LALT      &sk LSHFT     &sk LCTRL     ___             X_MM     &kp PG_DN     NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp RET         X_RM
+    X_LM        &kp DOT       &kp SQT       &kp UNDER    &kp MINUS      &none        X_MM       &none         &kp N1          &kp N2      &kp N3      &kp N0          X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     ___           ___           ___           ___           ___             X_MB     &kp INS       &kp TAB       &kp LT        &kp GT        ___             X_RB
+    X_LB        &none         &kp DQT       &kp EQUAL    &kp PLUS       &none        X_MB       &none         &kp N7          &kp N8      &kp N9      &none           X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-    X_LH                                               ___           ___             X_MH     ___           CANCEL                                                    X_RH
+    X_LH                                                   ___           ___         X_MH        ___           ___                                                    X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
 )
 
-ZMK_LAYER(fn,
+ZMK_LAYER(_nav,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     &kp F12       &kp F7        &kp F8        &kp F9        ___             X_MT     ___           &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    &win_sleep      X_RT
+    X_LT     &none          &kp TILDE      &kp GRAVE  &kp PIPE       &none           X_MT     &none          &kp HOME       &kp UP        &kp END        &none        X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &hml LGUI F11 &hml LALT F4  &hml LSHFT F5 &hml LCTRL F6 ___             X_MM     ___           DSK_PREV      VOL_DOWN      DSK_NEXT      ___             X_RM
+    X_LM     &kp EXCL       &kp AT         &kp POUND  &kp DLLR       &none           X_MM     &none          &kp LEFT       &kp DOWN      &kp RIGHT      &kp ESC      X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &kp F10       &kp F1        &kp F2        &kp F3        ___             X_MB     PIN_APP       PIN_WIN       DSK_MGR       ___           ___             X_RB
+    X_LB     &kp QMARK      &kp CARET      &kp AMPS   &kp PRCNT      &none           X_MB     &none          &kp PG_UP       &none        &kp PG_DN      &none        X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-    X_LH                                               ___           ___             X_MH     &kp C_MUTE    &kp C_PP                                                  X_RH
+    X_LH                                               ___           ___             X_MH         ___           &sl 3                                                 X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
 )
-
+&none  &none  &none   
+&none  &none  &none   
+&none  &none  &none   
+&none      &none      &none      &trans     &trans  &none  &none  &trans        &none     &none      &none
 ZMK_LAYER(num,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
     X_LT     ___           &kp N7        &kp N8        &kp N9        ___             X_MT     ___           ___           ___           ___           ___             X_RT
@@ -116,19 +116,13 @@ ZMK_LAYER(mouse,
 
         _num {
             bindings = <
-&none    &kp BSLH  &kp STAR   &kp FSLH   &none   &none  &none  &none   &kp N4  &kp N5  &kp N6  &none
-&kp DOT  &kp SQT   &kp UNDER  &kp MINUS  &none   &none  &none  &none   &kp N1  &kp N2  &kp N3  &kp N0
-&none    &kp DQT   &kp EQUAL  &kp PLUS   &none   &none  &none  &none   &kp N7  &kp N8  &kp N9  &none
-&none    &none     &none      &none      &trans  &none  &none  &trans  &trans  &none   &none   &none
+
             >;
         };
 
         _nav {
             bindings = <
-&none      &kp TILDE  &kp GRAVE  &kp PIPE   &none   &none  &none  &none   &kp HOME   &kp UP    &kp END    &none
-&kp EXCL   &kp AT     &kp POUND  &kp DLLR   &none   &none  &none  &none   &kp LEFT   &kp DOWN  &kp RIGHT  &kp ESC
-&kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  &none   &none  &none  &none   &kp PG_UP  &mkp MB2  &kp PG_DN  &kp TAB
-&none      &none      &none      &trans     &trans  &none  &none  &trans  &sl 3      &none     &none      &none
+
             >;
         };
 
