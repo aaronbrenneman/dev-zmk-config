@@ -7,8 +7,7 @@ boards, including my Corne-5col, my Planck, and my Preonic.[^1]
 ## features
 
 - helper macros from urob's [zmk-helpers](https://github.com/urob/zmk-helpers)
-- "timeless" homerow mods
-- combos replacing the symbol layer
+- combos replacing many symbols
 
 ## to do 
 
